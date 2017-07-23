@@ -25,14 +25,18 @@ and type this: `cd desktop`. That will change your directory to your Desktop. Th
 `mkdir selfbot`, then `cd selfbot`. Finally, run `npm install --save discord.js`.
 
 *2: Installing and setting up the selfbot*
-Lets get started! Plop the **selfbot.js** file into the newly created *selfbot/* folder. Open it up
-with a code editor like [atom](), [brackets](), etc. Whatever you use. Next, scroll down to the bottom
-and find this line:
-`client.login('your-token');`
+Lets get started! Plop the **selfbot.js** and the **config.json** files into the newly created *selfbot/* folder. Open up **config.json**
+with a code editor like [atom](), [brackets](), etc. Whatever you use. You should see this code:
+```
+{
+  "token": "your-token",
+  "prefix": "l"
+}
+```
 Replace **your-token** with your token. You can find this by running `CTRL + SHIFT + I` in Discord, heading to
-the applications tab and getting your token.
+the applications tab, local storage and getting your token.
 **WARNING: DO NOT, REPEAT DO NOT, SHARE YOUR TOKEN!**
-Plop it in, and save the file. OPTIONAL: Set the `var prefix = "l"` line at the top to your desired prefix.
+Plop it in, and save the file. OPTIONAL: Set the prefix line to your desired prefix.
 The default, as you can see above, is `l`. So commands will start with `l`, like `lhelp` and `lquote`
 
 *3: Running the selfbbot*
