@@ -16,8 +16,8 @@ LSelfbot has a minimal list of 6 commands at the moment.
 [Click here](http://imgur.com/a/WGLgI)*
 * - *may be outdated or not updated*
 
-## Install guide [windows]
-**YOU NEED NODEJS INSTALLED! INSTALL IT FIRST!** You can find it [here](https://nodejs.com).
+## Install guide [WINDOWS]
+**YOU NEED NODEJS INSTALLED! INSTALL IT FIRST!** You can find it [here](https://nodejs.org).
 
 *1: Grabbing the files*
 To get started, download the latest release files of the selfbot. Then, open your command prompt,
@@ -46,5 +46,9 @@ If you get banned off Discord while using my selfbot, it isn't my problem. Don't
 ## Support:
 If you do need help on things like adding custom commands, fixing the code,
 or anything else, join my support Discord [here](https://discord.gg/6yjeSM8)!
+
+## Info:
+- I will probably not write install guides for Mac / Linux. Mainly because I have no idea how my bot would work on those platforms,
+but also that it is probably a waste of time. If you feel you can create a Mac or Linux guide, fork the repo, make the changes and send a merge request or whatever :smile:
 
 *@2017 LucyDevv. All content is protected.*
