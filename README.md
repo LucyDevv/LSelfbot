@@ -1,6 +1,3 @@
-# LSelfbot
-My attempt at making a simple Discord selfbot.
-
 ## What is this?
 LSelfbot is a NodeJS Discord selfbot, made with the Discord.JS library.
 It features many helpful commands, and it is always growing!
