@@ -1,8 +1,10 @@
-const Discord = require("discord.js");
-const client = new Discord.Client();
+const { Client } = require("discord.js");
+const client = new Client({
+   disableEveryone: true
+}); // August will get triggered!
 const config = require("./config.json");
 
-var prefix = config.prefix
+var prefix = config.prefix;
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
